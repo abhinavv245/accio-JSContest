@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-input {
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    width: 500px;
+    height: 10px;
+    padding: 15px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .sort{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 43px;
+    padding: 5px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+
+  tr:not(:last-child) {
+    border-bottom: 1px solid white;
+  }
+
+  .price-change.negative {
+    color: red;
+  }
+
+  .price-change.positive {
+    color: green;
+  }
+
